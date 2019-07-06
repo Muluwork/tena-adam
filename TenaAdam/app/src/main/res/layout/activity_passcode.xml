@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kaleab.tenaadam.Passcode.PasscodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter password"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="40dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="#0000"
+            android:inputType="numberPassword"
+            android:id="@+id/pass_code"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30sp"
+            >
+
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="1"
+                android:id="@+id/no_1"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="2"
+                android:id="@+id/no_2"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="3"
+                android:id="@+id/no_3"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30sp"
+            >
+
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="4"
+                android:id="@+id/no_4"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="5"
+                android:id="@+id/no_5"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="6"
+                android:id="@+id/no_6"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30sp"
+            >
+
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="7"
+                android:id="@+id/no_7"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="8"
+                android:id="@+id/no_8"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="9"
+
+                android:id="@+id/no_9"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30sp"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:padding="16dp"
+                android:id="@+id/back_space"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="0"
+                android:id="@+id/no_0"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:textSize="20sp"
+                android:background="@drawable/round"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round"
+                android:src="@drawable/ic_check_black_24dp"
+                android:padding="16dp"
+                android:id="@+id/done"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Forget password?"
+            android:visibility="gone"
+            android:id="@+id/forget_password"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

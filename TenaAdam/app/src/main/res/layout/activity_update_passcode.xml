@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaleab.tenaadam.Passcode.UpdatePasscode">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/lock"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="16dp"
+                android:text="Enabe password" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:id="@+id/enable_update_password_switch"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="18dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/enable_update_password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:hint="Enter new passowrd"
+                android:paddingBottom="24dp"
+                android:inputType="numberPassword"
+                android:id="@+id/new_password"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:hint="Verify new password"
+                android:inputType="numberPassword"
+                android:paddingBottom="24dp"
+                android:id="@+id/verify_new_password"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:id="@+id/new_secrete_question">
+
+            </Spinner>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:hint="Answer your questioin"
+                android:paddingBottom="24dp"
+                android:id="@+id/new_secrete_answer"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:id="@+id/update_password_button"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Commit change"
+            android:textColor="@color/white"
+            android:layout_marginBottom="24dp"
+            android:onClick="updatePassword"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

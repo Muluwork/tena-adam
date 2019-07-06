@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TenaAdam</string>
+
+
+    <string name="walk_through_description_1">description 1</string>
+    <string name="walk_through_description_2">description 2</string>
+    <string name="walk_through_description_3">description 3</string>
+    <string name="walk_through_description_4">description 4</string>
+    <string name="walk_through_description_5">description 5</string>
+    <string name="title_activity_main">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="secrete_questions_spinner">
+        <item>Question one</item>
+        <item>Question two</item>
+        <item>Question three</item>
+        <item>Question four</item>
+        <item>Question five</item>
+        <item>Question six</item>
+        <item>Question seven</item>
+        <item>Question eight</item>
+    </string-array>
+    <string name="title_activity_reset_passcode">ResetPasscode</string>
+
+</resources>
